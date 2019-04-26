@@ -1,0 +1,129 @@
+# Primary home navigation links
+
+home-primary:
+  - title: "Sản phẩm"
+    url: /work/
+  - title: "Bài viết Odayaka"
+    url: /articles/
+  - title: "Từ Phú Quốc"
+    url: /phuquoc-city/
+
+
+# Secondary home navigation links
+
+home-secondary:
+  - title: "Giới thiệu"
+    url: /about/
+  - title: "Địa chỉ"
+    url: /contact/
+  - title: "Câu hỏi thường gặp"
+    url: /faqs/
+
+
+# Masthead navigation links
+
+masthead:
+  - title: "Giới thiệu"
+    url: /about/
+  - title: "Địa chỉ"
+    url: /contact/
+  - title: "Sản phẩm"
+    url: /work/
+  - title: "Bài viết Odayaka"
+    url: /articles/
+
+
+# Primary site navigation links (overlay)
+
+primary:
+  - title: "Work Portfolio"
+    url: /work/
+    img: work-portfolio-menu-thumb.jpg
+    excerpt: "Things I've designed, illustrated, and developed"
+  - title: "Blog Articles"
+    url: /articles/
+    img: blog-articles-menu-thumb.jpg
+    excerpt: "Thoughts, inspiration, mistakes, and other minutia I've written"
+  - title: "Mastering Paper"
+    url: /phuquoc-city/
+    img: mastering-paper-menu-img.jpg
+    excerpt: "Tutorials to help you master Paper by FiftyThree"
+  - title: "Jekyll Themes"
+    url: /work/jekyll-themes/
+    img: jekyll-themes-menu-item.jpg
+    excerpt: "Open source Jekyll themes"
+  - title: "Procreate Paintings"
+    url: /procreate-paintings/
+    img: procreate-paintings-menu-thumb.jpg
+    excerpt: "Portraits digitally painted with Procreate"
+  - title: "Cho thuê xe Honda Phú Quốc"
+    url: /thuexe/
+    img: rentamotorbike-thumb.jpg
+    excerpt: "Dịch vụ thuê xe honda tại Phú Quốc"
+  - title: "Sạc năng lượng mặt trời Aukey 21W"
+    url: /work/aukey-21w-nang-luong-mat-troi/
+    img: aukey-21w-thumb.jpg
+    excerpt: "Aukey sạc năng lượng mặt trời giá rẻ"
+  - title: "Sản phẩm năng lượng mặt trời"
+    url: /nangluongmattroi/
+    img: tiny-paintings-menu-thumb.jpg
+    excerpt: "Mini watercolor portraits painted at really small sizes"
+
+
+# Secondary site navigation links (overlay)
+
+secondary:
+  - title: "About"
+    url: /about/
+  - title: "FAQs"
+    url: /faqs/
+  - title: "Contact"
+    url: /contact/
+  - title: "Support"
+    url: /support/
+  - title: "Style Guide"
+    url: /style-guide/
+  - title: "Terms &amp; Policies"
+    url: /terms/
+  - title: "Sitemap"
+    url: /sitemap/
+  - title: "Feed"
+    url: http://feeds.feedburner.com/OdayakaPhuQuoc
+
+
+# Footer navigation links
+
+colophon-menu:
+  - title: "About"
+    url: /about/
+  - title: "FAQs"
+    url: /faqs/
+  - title: "Contact"
+    url: /contact/
+  - title: "Support"
+    url: /support/
+  - title: "Terms &amp; Policies"
+    url: /terms/
+
+colophon-social:
+  - title: "Twitter"
+    url: https://twitter.com/mmistakes
+    icon: icon-twitter
+  - title: "0899150055"
+    url: tel:+84899150055
+    icon: icon-instagram
+  - title: "Tumblr"
+    url: http://mademistakes.tumblr.com/
+    icon: icon-tumblr
+  - title: "Facebook"
+    url: https://facebook.com/michaelrose
+    icon: icon-facebook
+  - title: "YouTube"
+    url: https://www.youtube.com/user/anotherjpeg
+    icon: icon-youtube
+  - title: "GitHub"
+    url: https://github.com/mmistakes
+    icon: icon-github
+  - title: "Google+"
+    url: https://plus.google.com/+MichaelRoseDesign/posts
+    icon: icon-google-plus

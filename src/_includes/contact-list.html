@@ -1,0 +1,37 @@
+<ul class="contact-list">
+  {% if site.author.github %}
+    <li>
+      <a href="{{ site.author.zalo }}" rel="me">
+        <svg class="icon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-zalo' | prepend: 'assets/icons/' | relative_url }}"></use></svg>
+        <span class="label">Zalo Odayaka Phú Quốc</span>
+      </a>
+    </li>
+  {% endif %}
+
+  {% if site.author.facebook %}
+    <li>
+      <a href="{{ site.author.facebook }}" rel="me">
+        <svg class="icon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-facebook' | prepend: 'assets/icons/' | relative_url }}"></use></svg>
+        <span class="label">@OdayakaPhuQuoc</span>
+      </a>
+    </li>
+  {% endif %}
+
+  {% if site.author.phonenumber %}
+    <li>
+      <a href="{{ site.author.phonenumber }}" rel="me">
+        <svg class="icon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-phone' | prepend: 'assets/icons/' | relative_url }}"></use></svg>
+        <span class="label">0899150055</span>
+      </a>
+    </li>
+  {% endif %}
+
+  {% if site.feed.path %}
+    <li>
+      <a href="{{ site.feed.path }}" title="Atom Feed">
+        <svg class="icon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-rss' | prepend: 'assets/icons/' | relative_url }}"></use></svg>
+        <span class="label">Subscribe</span>
+      </a>
+    </li>
+  {% endif %}
+</ul>

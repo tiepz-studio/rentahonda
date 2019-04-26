@@ -1,0 +1,32 @@
+<footer id="footer" class="site-footer">
+  <ul class="menu">
+    <li><a href="/about/">Giới thiệu</a></li>
+    <li><a href="/faqs/">Vấn đề thường gặp</a></li>
+    <li><a href="/contact/">Liên hệ</a></li>
+    <li><a href="/support/">Hỗ trợ tài chính</a></li>
+    <li><a href="/terms/">Quy định thanh toán và vận chuyển</a></li>
+    <li><a href="/sitemap/">Sitemap</a></li>
+  </ul>
+  <div class="copyright">
+    {% if site.copyright %}
+      {{ site.copyright | markdownify }}
+    {% else %}
+      <p>&copy; 2004&ndash;{{ site.time | date: '%Y' }} Odayaka.
+        {% if site.author.facebook %}
+          <a href="{{ site.author.facebook }}" rel="me"><svg class="icon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-facebook' | prepend: 'assets/icons/' | relative_url }}"></use></svg>@OdayakaPhuQuoc</a>
+        {% endif %}
+        {% if site.author.phonenumber %}
+          <a href="{{ site.author.phonenumber }}" rel="me"> <svg class="icon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-phone' | prepend: 'assets/icons/' | relative_url }}"></use></svg>0899150055</a>
+        {% endif %}
+        {% if site.author.messenger %}
+          <a href="{{ site.author.messenger }}" rel="me"> <svg class="icon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-messenger' | prepend: 'assets/icons/' | relative_url }}"></use></svg>Tin nhắn Messenger</a>
+        {% endif %}
+        {% if site.author.zalo %}
+          <a href="{{ site.author.zalo }}" rel="me"> <svg class="icon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-zalo' | prepend: 'assets/icons/' | relative_url }}"></use></svg>Zalo 0899150055</a>
+        {% endif %}
+      </p>
+            <p>Ấp Bãi Vòng, Xã Hàm Ninh, Thành phố Phú Quốc, Kiên Giang. Postal code 920000
+      </p>
+    {% endif %}
+  </div>
+</footer>

@@ -1,0 +1,22 @@
+---
+---
+____________    _____   ___
+|  ||  \|__|\_/|__||_/ |__|
+|__||__/|  | | |  || \ |  |
+
+/* ODAYAKA.VN */
+
+  Designer:     Michael Rose
+  Twitter:      @mmistakes
+  Location:     Buffalo, New York USA
+
+  Last updated: {{ site.time }}
+  Language:     English
+  Built with:   Jekyll {{ jekyll.version }} <https://jekyllrb.com>
+                Visual Studio Code <https://code.visualstudio.com>
+                Adobe Creative Suite
+                Gulp <https://gulpjs.com>
+                Travis CI <https://travis-ci.org>
+                SimpleIcon <http://www.flaticon.com>
+                Noun Project <https://thenounproject.com>
+                Algolia <https://www.algolia.com>
